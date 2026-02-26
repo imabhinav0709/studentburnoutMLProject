@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "model": "Linear Regression",
+      "test_rmse": 4.9268,
+      "test_mae": 3.9942,
+      "test_r2": 0.8582,
+      "cv_r2_mean": 0.848,
+      "cv_r2_std": 0.0093,
+      "cv_rmse_mean": 5.1802,
+      "best_params": {}
+    },
+    {
+      "model": "Random Forest",
+      "test_rmse": 5.9091,
+      "test_mae": 4.75,
+      "test_r2": 0.796,
+      "cv_r2_mean": 0.7762,
+      "cv_r2_std": 0.0168,
+      "cv_rmse_mean": 6.2824,
+      "best_params": {
+        "max_depth": null,
+        "min_samples_split": 2,
+        "n_estimators": 200
+      }
+    },
+    {
+      "model": "XGBoost",
+      "test_rmse": 5.0845,
+      "test_mae": 4.0745,
+      "test_r2": 0.8489,
+      "cv_r2_mean": 0.8269,
+      "cv_r2_std": 0.0128,
+      "cv_rmse_mean": 5.5207,
+      "best_params": {
+        "learning_rate": 0.05,
+        "max_depth": 4,
+        "n_estimators": 200,
+        "subsample": 0.8
+      }
+    },
+    {
+      "model": "Gradient Boosting",
+      "test_rmse": 5.2518,
+      "test_mae": 4.2012,
+      "test_r2": 0.8388,
+      "cv_r2_mean": 0.817,
+      "cv_r2_std": 0.011,
+      "cv_rmse_mean": 5.6783,
+      "best_params": {
+        "learning_rate": 0.05,
+        "max_depth": 4,
+        "n_estimators": 200
+      }
+    }
+  ],
+  "best_model_name": "Linear Regression",
+  "feature_names": [
+    "study_hours_per_day",
+    "sleep_hours",
+    "attendance_pct",
+    "previous_gpa",
+    "stress_level",
+    "extracurricular_hrs",
+    "screen_time_hrs",
+    "exercise_freq",
+    "has_part_time_job",
+    "gender_Male",
+    "gender_Other"
+  ]
+}

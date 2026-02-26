@@ -1,0 +1,193 @@
+[
+  {
+    "test": "Pearson Correlation",
+    "feature": "study_hours_per_day",
+    "statistic": 0.627,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.627,
+    "effect_label": "medium",
+    "ci_lower": 0.5997,
+    "ci_upper": 0.6529
+  },
+  {
+    "test": "Spearman Correlation",
+    "feature": "study_hours_per_day",
+    "statistic": 0.6228,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.6228,
+    "effect_label": "medium"
+  },
+  {
+    "test": "Pearson Correlation",
+    "feature": "sleep_hours",
+    "statistic": 0.2448,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.2448,
+    "effect_label": "small",
+    "ci_lower": 0.2031,
+    "ci_upper": 0.2855
+  },
+  {
+    "test": "Spearman Correlation",
+    "feature": "sleep_hours",
+    "statistic": 0.2362,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.2362,
+    "effect_label": "small"
+  },
+  {
+    "test": "Pearson Correlation",
+    "feature": "attendance_pct",
+    "statistic": 0.3123,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.3123,
+    "effect_label": "small",
+    "ci_lower": 0.2722,
+    "ci_upper": 0.3513
+  },
+  {
+    "test": "Spearman Correlation",
+    "feature": "attendance_pct",
+    "statistic": 0.3003,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.3003,
+    "effect_label": "small"
+  },
+  {
+    "test": "Pearson Correlation",
+    "feature": "previous_gpa",
+    "statistic": 0.2981,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.2981,
+    "effect_label": "small",
+    "ci_lower": 0.2576,
+    "ci_upper": 0.3375
+  },
+  {
+    "test": "Spearman Correlation",
+    "feature": "previous_gpa",
+    "statistic": 0.2898,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.2898,
+    "effect_label": "small"
+  },
+  {
+    "test": "Pearson Correlation",
+    "feature": "stress_level",
+    "statistic": -0.4357,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.4357,
+    "effect_label": "small",
+    "ci_lower": -0.4705,
+    "ci_upper": -0.3995
+  },
+  {
+    "test": "Spearman Correlation",
+    "feature": "stress_level",
+    "statistic": -0.4224,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.4224,
+    "effect_label": "small"
+  },
+  {
+    "test": "Pearson Correlation",
+    "feature": "extracurricular_hrs",
+    "statistic": 0.0386,
+    "p_value": 0.084221,
+    "significant_at_0.05": false,
+    "effect_size": 0.0386,
+    "effect_label": "negligible",
+    "ci_lower": -0.0052,
+    "ci_upper": 0.0823
+  },
+  {
+    "test": "Spearman Correlation",
+    "feature": "extracurricular_hrs",
+    "statistic": 0.0381,
+    "p_value": 0.088163,
+    "significant_at_0.05": false,
+    "effect_size": 0.0381,
+    "effect_label": "negligible"
+  },
+  {
+    "test": "Pearson Correlation",
+    "feature": "screen_time_hrs",
+    "statistic": -0.2163,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.2163,
+    "effect_label": "small",
+    "ci_lower": -0.2576,
+    "ci_upper": -0.1741
+  },
+  {
+    "test": "Spearman Correlation",
+    "feature": "screen_time_hrs",
+    "statistic": -0.1934,
+    "p_value": 0.0,
+    "significant_at_0.05": true,
+    "effect_size": 0.1934,
+    "effect_label": "negligible"
+  },
+  {
+    "test": "Pearson Correlation",
+    "feature": "exercise_freq",
+    "statistic": 0.0984,
+    "p_value": 1e-05,
+    "significant_at_0.05": true,
+    "effect_size": 0.0984,
+    "effect_label": "negligible",
+    "ci_lower": 0.0548,
+    "ci_upper": 0.1416
+  },
+  {
+    "test": "Spearman Correlation",
+    "feature": "exercise_freq",
+    "statistic": 0.0926,
+    "p_value": 3.3e-05,
+    "significant_at_0.05": true,
+    "effect_size": 0.0926,
+    "effect_label": "negligible"
+  },
+  {
+    "test": "Welch's t-test",
+    "feature": "has_part_time_job",
+    "statistic": -3.7011,
+    "p_value": 0.000225,
+    "significant_at_0.05": true,
+    "effect_size": -0.1809,
+    "effect_label": "negligible",
+    "ci_lower": -3.6589,
+    "ci_upper": -1.1253,
+    "power": 0.9624
+  },
+  {
+    "test": "One-way ANOVA",
+    "feature": "gender",
+    "statistic": 1.0022,
+    "p_value": 0.367261,
+    "significant_at_0.05": false,
+    "effect_size": 0.001,
+    "effect_label": "eta\u00b2",
+    "power": 0.1035
+  },
+  {
+    "test": "Chi-square",
+    "feature": "gender \u00d7 has_part_time_job",
+    "statistic": 0.2928,
+    "p_value": 0.863804,
+    "significant_at_0.05": false,
+    "effect_size": 0.0121,
+    "effect_label": "Cram\u00e9r's V"
+  }
+]
